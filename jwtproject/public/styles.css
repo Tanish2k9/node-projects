@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    position: relative;
+} */
+.nav-container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.nav-container *{
+    color:snow;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.logo{
+    margin-left:10px;
+}
+.link-container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.link-container a{
+    margin-right: 15px;
+}
+.recipes-img{
+    position: relative;
+    /* border: 5px solid black; */
+    width:100%;
+}
+.recipes-img img{
+    /* position: relative; */
+    /* opacity: 0.8; */
+    width:100%;
+    height: 90vh;
+    background-color: rgb(7, 7, 7);
+}
+
+header{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.headings{
+
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    /* mix-blend-mode:overlay; */
+    text-align: center;
+    /* top:10px; */
+}
+.headings button{
+
+    margin-top: 40px;
+    background-color:rgb(255, 99, 71);
+    width:25rem;
+    border-radius: 15px;
+    /* height: 30px; */
+
+}
+.headings button a:hover{
+    color: black;
+}
+.headings button:active{
+    background-color: red;
+}
+.headings button a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+ul{
+    height: 90vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul li{
+    background-color: antiquewhite;
+    margin: 10px;
+    list-style: none;
+}
+ul li img{
+    width: 300px;
+
+}
+ul li div{
+    text-align: center;
+}
+footer{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    
+}
+.form-container{
+    border:5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79%;
+    
+}
+form{
+    width:30%;
+    /* border:5px solid red; */
+    margin: 10px auto;
+    /* height: 70vh; */
+    text-align: center;
+    box-shadow: 2px 5px 8px black;
+    
+    
+}
+.input{
+    /* border:1px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+    align-items: center;
+    width:60%;
+    padding: 8px;
+    margin: 20px auto;
+}
+.input input{
+    font-size: 15px;
+}
+form button{
+    width:10rem;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+form button:hover{
+    color:blueviolet;
+}
+form button:active{
+    background-color: bisque;
+}
+.error{
+    color:red;
+}

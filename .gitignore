@@ -1,0 +1,4 @@
+jwtproject/node_modules/*
+jwtproject/.env
+jwtproject/data.json
+jwtproject/recipes.json
